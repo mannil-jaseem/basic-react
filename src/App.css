@@ -32,7 +32,32 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.product-row {
+  /* border:1px solid; */
+  width: 80%;
+  border-spacing: 0px;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+}
+
+.product-cat-row {
+  text-align: center;
+  font-weight: bold
+}
+
+.th,
+td,
+th {
+  width: 60%;
+}
+
+.search-bar {
+  margin: 10px 10%;
 }
